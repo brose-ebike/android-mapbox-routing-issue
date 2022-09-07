@@ -24,6 +24,7 @@ If the rider is leaving the route or joining the route not at the beginning the 
 - Clone this repository
 - Setup your Mapbox tokens (https://docs.mapbox.com/android/maps/guides/install/)
 - Start the app on a simulator or a real device
+- Grand location permissions in the settings
 - Use the included GPX files to simulate the ride of the specific scenario
 - See in the logs the information about the route progress (`offRoute`, `distanceRemaining`, `durationRemaining`, `fractionTraveled`)
 
