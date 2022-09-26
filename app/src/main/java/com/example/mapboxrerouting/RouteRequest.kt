@@ -16,6 +16,6 @@ internal suspend fun requestRoutes(
 
 private fun MapMatchingResponse?.toNavigationRoute(): NavigationRoute? {
     return this?.matchings()?.let { matchingList ->
-        matchingList[0].toDirectionRoute().toNavigationRoute(RouterOrigin.Custom())
+        matchingList.firstOrNull()?.toDirectionRoute()?.toNavigationRoute(RouterOrigin.Custom())
     }
 }
